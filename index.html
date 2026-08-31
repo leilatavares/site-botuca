@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Convênio UNESP e Prefeitura de Botucatu — Ampliando Políticas, Culturas e Práticas Inclusivas na Rede Municipal de Ensino." />
+  <title>Convênio UNESP & Prefeitura de Botucatu | Ampliando Políticas, Culturas e Práticas Inclusivas</title>
+
+  <!-- Google Fonts: Baloo 2 & Nunito Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,400&display=swap" rel="stylesheet">
+
+  <!-- Estilos Globais -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- 1. TOPBAR DE ACESSIBILIDADE E CONVÊNIO -->
+  <div class="topbar-institutional">
+    <div class="container topbar-inner">
+      <div class="topbar-title">
+        <span class="topbar-badge">Convênio Oficial</span>
+        <span>UNESP (Faculdade de Ciências - Bauru) & Prefeitura Municipal de Botucatu</span>
+      </div>
+      <div class="topbar-accessibility">
+        <button type="button" class="access-btn" id="btn-contrast" aria-label="Alternar Alto Contraste">◐ Alto Contraste</button>
+        <button type="button" class="access-btn" id="btn-font-increase" aria-label="Aumentar tamanho do texto">A+</button>
+        <button type="button" class="access-btn" id="btn-font-decrease" aria-label="Diminuir tamanho do texto">A-</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. CABEÇALHO PRINCIPAL COM LOGOS INSTITUCIONAIS -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <div class="brand-group">
+        <div class="brand-logos">
+          <!-- Logo UNESP / FC Bauru -->
+          <a href="#inicio" class="unesp-brand" title="UNESP - Faculdade de Ciências - Câmpus de Bauru">
+            <span class="unesp-logo-badge">unesp</span>
+            <div class="botucatu-brand">
+              <strong>50 anos</strong>
+              <span>FC • Câmpus Bauru</span>
+            </div>
+          </a>
+
+          <div class="brand-divider"></div>
+
+          <!-- Logo Prefeitura de Botucatu / Secretaria da Educação -->
+          <div class="botucatu-brand">
+            <strong>Prefeitura de Botucatu</strong>
+            <span>Secretaria Municipal de Educação</span>
+          </div>
+        </div>
+
+        <div class="partner-badges d-none-mobile">
+          <span class="partner-tag" title="Centro Multidisciplinar para o Desenvolvimento de Tecnologias Assistivas">CMDTA</span>
+          <span class="partner-tag" title="Laboratório de Tecnologias para o Desenvolvimento e Inclusão de Pessoas">LaTeDIP</span>
+        </div>
+      </div>
+
+      <!-- Navegação Principal -->
+      <nav class="main-nav" id="main-nav" aria-label="Navegação do site">
+        <a href="#inicio">Início</a>
+        <a href="#projeto">O Projeto</a>
+        <a href="#acoes">Ações (16 Frentes)</a>
+        <a href="#atualizacoes">Atualizações</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#producoes">Produções</a>
+        <a href="#sugestoes">Sugestões</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#sugestoes" class="btn-header-cta">
+          <span>Envie sua Sugestão</span> →
+        </a>
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 3. HERO BANNER COM CARROSSEL DE FOTOS DO TOPO (EXIGÊNCIA DO ROTEIRO) -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Convênio Unesp e Prefeitura de Botucatu</span>
+          <h1>
+            “AMPLIANDO POLÍTICAS, CULTURAS E
+            <span class="gradient-text">PRÁTICAS INCLUSIVAS”</span>
+          </h1>
+          <p class="hero-lead">
+            Iniciativa estruturante de suporte à Educação Inclusiva na Rede Municipal de Botucatu, articulando rigor científico universitário, formações continuadas em serviço e acompanhamento direto no cotidiano escolar.
+          </p>
+
+          <div class="hero-meta-pills">
+            <span class="meta-pill">🏛️ Faculdade de Ciências · Bauru</span>
+            <span class="meta-pill">🏫 64+ Unidades Escolares</span>
+            <span class="meta-pill">🎓 Até 50 Monitores da UNESP</span>
+            <span class="meta-pill">✨ Avaliação Biopsicossocial</span>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projeto" class="btn btn-primary">Conhecer o Projeto Oficial →</a>
+            <a href="#acoes" class="btn btn-outline">Explorar as 16 Ações →</a>
+          </div>
+        </div>
+
+        <!-- Carrossel de Fotos do Topo -->
+        <div class="hero-carousel-container" aria-label="Carrossel de fotos das ações do projeto">
+          <div class="photo-carousel">
+            <div class="photo-carousel-track" id="photo-track">
+              <!-- Slide 1: Formação de Professores -->
+              <div class="photo-slide">
+                <img src="assets/images/foto-formacao.jpg" alt="Formação continuada com professores da rede municipal de Botucatu" />
+                <div class="photo-slide-overlay">
+                  <span class="photo-slide-tag">Formação em Serviço</span>
+                  <h3 class="photo-slide-title">Encontros Formativos com a Rede</h3>
+                  <p class="photo-slide-desc">Professores da classe comum e Educação Especial construindo práticas inclusivas colaborativas.</p>
+                </div>
+              </div>
+
+              <!-- Slide 2: Sala Multissensorial no SEP -->
+              <div class="photo-slide">
+                <img src="assets/images/foto-sala-multissensorial.jpg" alt="Atendimento na Sala Multissensorial no SEP Botucatu" />
+                <div class="photo-slide-overlay">
+                  <span class="photo-slide-tag">Espaço Inovador · SEP</span>
+                  <h3 class="photo-slide-title">Sala Multissensorial de Estimulação Precoce</h3>
+                  <p class="photo-slide-desc">Atendimento terapêutico especializado localizado na Av. Santana, Centro de Botucatu.</p>
+                </div>
+              </div>
+
+              <!-- Slide 3: Monitores nas Escolas -->
+              <div class="photo-slide">
+                <img src="assets/images/foto-monitores.jpg" alt="Estudantes de graduação da UNESP atuando como monitores em sala de aula" />
+                <div class="photo-slide-overlay">
+                  <span class="photo-slide-tag">Suporte Direto</span>
+                  <h3 class="photo-slide-title">Atuação dos Monitores da UNESP</h3>
+                  <p class="photo-slide-desc">Até 50 estudantes de graduação com supervisão semanal direta apoiando o cotidiano escolar.</p>
+                </div>
+              </div>
+
+              <!-- Slide 4: Reunião Multidisciplinar e Estudo de Caso -->
+              <div class="photo-slide">
+                <img src="assets/images/foto-equipe.jpg" alt="Reunião da Equipe Multidisciplinar de Estudo de Caso e Avaliação Biopsicossocial" />
+                <div class="photo-slide-overlay">
+                  <span class="photo-slide-tag">Avaliação Pioneira</span>
+                  <h3 class="photo-slide-title">Estudos de Caso & Avaliação Biopsicossocial</h3>
+                  <p class="photo-slide-desc">Olhar ampliado sobre dimensões pedagógicas, emocionais e sociais dos estudantes.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles de Navegação -->
+            <button type="button" class="carousel-nav-btn prev" id="photo-prev" aria-label="Foto anterior">❮</button>
+            <button type="button" class="carousel-nav-btn next" id="photo-next" aria-label="Próxima foto">❯</button>
+
+            <!-- Indicadores (Dots) -->
+            <div class="carousel-dots">
+              <button type="button" class="carousel-dot active" aria-label="Ir para slide 1"></button>
+              <button type="button" class="carousel-dot" aria-label="Ir para slide 2"></button>
+              <button type="button" class="carousel-dot" aria-label="Ir para slide 3"></button>
+              <button type="button" class="carousel-dot" aria-label="Ir para slide 4"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. BLOCO PRINCIPAL: LOGO DO PROJETO & RESUMO INSTITUCIONAL (PDF 1 & 2) -->
+    <section class="section-presentation" id="projeto">
+      <div class="container">
+        <div class="presentation-grid">
+          <!-- Coluna Esquerda: Imagem/Logo do Projeto e Pilares -->
+          <div class="project-identity-card">
+            <div class="project-logo-frame">
+              <img src="assets/images/logo-projeto.jpg" alt="Símbolo Oficial do Projeto Ampliando Políticas, Culturas e Práticas Inclusivas" />
+            </div>
+            <h3>Ampliando Políticas, Culturas e Práticas Inclusivas</h3>
+            <p class="lead-partner">UNESP Câmpus de Bauru & Prefeitura de Botucatu</p>
+
+            <div class="pillars-list">
+              <div class="pillar-item">
+                <strong>🎯 Missão</strong>
+                <span>Fortalecer a Educação Inclusiva com base científica e escuta humana.</span>
+              </div>
+              <div class="pillar-item">
+                <strong>👁️ Visão</strong>
+                <span>Ser referência estadual e nacional em políticas públicas inclusivas.</span>
+              </div>
+              <div class="pillar-item">
+                <strong>🤝 Parceria</strong>
+                <span>Cooperação contínua universidade, poder público e escolas.</span>
+              </div>
+              <div class="pillar-item">
+                <strong>⚖️ Valores</strong>
+                <span>Equidade, diversidade, rigor ético e valorização das pessoas.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna Direita: Resumo do Projeto com Dados da Carta Informativa -->
+          <div class="project-summary-content">
+            <div>
+              <span class="official-letter-badge">📜 Carta Informativa Oficial · Botucatu, 22 de abril de 2026</span>
+              <span class="eyebrow">Sistematização das Ações</span>
+              <h2>Uma iniciativa de caráter inédito, abrangente e estruturante.</h2>
+            </div>
+
+            <p>
+              O projeto <strong>“Ampliando Políticas, Culturas e Práticas Inclusivas”</strong> é realizado pela <strong>Universidade Estadual Paulista (UNESP) – Faculdade de Ciências (Câmpus de Bauru)</strong> em parceria com a <strong>Prefeitura Municipal de Botucatu</strong> e a <strong>Secretaria Municipal de Educação</strong>. Iniciado em <strong>1º de setembro de 2025</strong>, consolidou-se como um dos mais amplos movimentos de suporte à Educação Inclusiva em nossa região.
+            </p>
+
+            <div class="letter-quote-block">
+              “O projeto tem como objetivo central fortalecer a Educação Inclusiva no município, por meio da formação continuada dos profissionais da rede e da implementação de práticas colaborativas entre diferentes segmentos educacionais, articulando o rigor científico da universidade às demandas concretas do cotidiano escolar.”
+            </div>
+
+            <!-- Métricas e Resultados Extraídos Diretamente da Carta Informativa -->
+            <div class="metrics-grid">
+              <div class="metric-card" style="--card-accent: var(--magenta);">
+                <div class="metric-number">655</div>
+                <div class="metric-label">Profissionais participantes do levantamento de demandas formativas</div>
+              </div>
+              <div class="metric-card" style="--card-accent: var(--gold);">
+                <div class="metric-number">64</div>
+                <div class="metric-label">Unidades escolares integradas na coleta diagnóstica inicial</div>
+              </div>
+              <div class="metric-card" style="--card-accent: var(--blue);">
+                <div class="metric-number">50</div>
+                <div class="metric-label">Monitores de graduação da UNESP atuando com supervisão semanal</div>
+              </div>
+              <div class="metric-card" style="--card-accent: var(--sage);">
+                <div class="metric-number">73</div>
+                <div class="metric-label">Escolas municipais com mapeamento e escuta ativa estruturada</div>
+              </div>
+              <div class="metric-card" style="--card-accent: var(--plum);">
+                <div class="metric-number">+150</div>
+                <div class="metric-label">Situações desafiadoras mapeadas para intervenção pedagógica</div>
+              </div>
+              <div class="metric-card" style="--card-accent: var(--magenta);">
+                <div class="metric-number">20</div>
+                <div class="metric-label">Casos prioritários em avaliação biopsicossocial pioneira</div>
+              </div>
+            </div>
+
+            <p>
+              O município inicia uma etapa pioneira com a implementação da <strong>avaliação biopsicossocial</strong>, realizada por observações diretas em contexto escolar e conduzida por equipe multidisciplinar vinculada à UNESP. Essa abordagem amplia o olhar sobre o estudante, considerando suas dimensões pedagógicas, sociais e emocionais, para além de classificações diagnósticas restritas.
+            </p>
+            <p>
+              Estão em andamento a expansão da equipe de Psicologia com carga horária estendida, suporte técnico especializado incluindo neuropediatra, e oferta de atendimento terapêutico na <strong>Sala Multissensorial</strong> localizada no <strong>SEP — Serviço de Estimulação Precoce</strong> (Av. Santana, Centro – Botucatu).
+            </p>
+
+            <div class="letter-sign-box">
+              <div class="sign-info">
+                <strong>Profa. Dra. Vera Lucia Messias Fialho Capellini</strong>
+                <span>Coordenação do Convênio UNESP – Botucatu · Faculdade de Ciências</span>
+              </div>
+              <div class="sign-date">Documento Oficial Assinado Digitalmente</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. AS 16 AÇÕES DO ROTEIRO (PDF 1 - PÁGINAS 1 E 2) -->
+    <section class="section-actions" id="acoes">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="eyebrow">Frentes Estruturantes de Atuação</span>
+          <h2 class="section-title">As 16 Ações do Convênio UNESP & Botucatu</h2>
+          <p class="section-subtitle">
+            Conheça detalhadamente cada uma das 16 frentes estabelecidas no Roteiro Oficial do Projeto. Clique em qualquer card para abrir os objetivos, metodologias e materiais.
+          </p>
+        </div>
+
+        <!-- Barra de Filtros de Categoria -->
+        <div class="actions-filter-bar" role="tablist" aria-label="Filtro das 16 ações">
+          <button type="button" class="filter-btn active" data-filter="all">Todas as 16 Ações</button>
+          <button type="button" class="filter-btn" data-filter="gestao">Gestão & Formação</button>
+          <button type="button" class="filter-btn" data-filter="praticas">Práticas Inclusivas & AEE</button>
+          <button type="button" class="filter-btn" data-filter="multidisciplinar">Suporte Multidisciplinar</button>
+          <button type="button" class="filter-btn" data-filter="pesquisa">Pesquisa, Acervo & Agenda</button>
+        </div>
+
+        <!-- Grid com as 16 Ações -->
+        <div class="actions-grid">
+          <!-- 1. Equipe -->
+          <article class="action-card" data-category="gestao" data-action-key="equipe" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#fce7ee;">
+                  <img src="assets/icons/equipe-icone.png" alt="Ícone de Equipe" />
+                </div>
+                <span class="action-num-badge">01</span>
+              </div>
+              <h3>Equipe</h3>
+              <p>Docentes da UNESP, pesquisadores dos laboratórios LaTeDIP e CMDTA, gestores e monitores integrados.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Gestão & Parceria</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 2. Formações nas UEs -->
+          <article class="action-card" data-category="gestao" data-action-key="formacoes" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#eaf1e7;">
+                  <img src="assets/icons/formacoes-icone.png" alt="Ícone de Formações" />
+                </div>
+                <span class="action-num-badge">02</span>
+              </div>
+              <h3>Formações nas UEs</h3>
+              <p>Percursos formativos em serviço para 655 profissionais da rede, alinhados às demandas das escolas.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Formação em Serviço</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 3. Gestores -->
+          <article class="action-card" data-category="gestao" data-action-key="gestores" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#fff1d7;">
+                  <img src="assets/icons/gestores-icone.png" alt="Ícone de Gestores" />
+                </div>
+                <span class="action-num-badge">03</span>
+              </div>
+              <h3>Gestores</h3>
+              <p>Alinhamento estratégico com diretores e equipes gestoras para consolidação de culturas inclusivas.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Liderança Escolar</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 4. Coordenadores -->
+          <article class="action-card" data-category="gestao" data-action-key="coordenadores" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#e3f1f6;">
+                  <img src="assets/icons/coordenadores-icone.png" alt="Ícone de Coordenadores" />
+                </div>
+                <span class="action-num-badge">04</span>
+              </div>
+              <h3>Coordenadores</h3>
+              <p>Formação e mediação pedagógica para acompanhamento do ensino colaborativo e práticas em sala de aula.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Coordenação Pedagógica</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 5. Psicopedagogos -->
+          <article class="action-card" data-category="multidisciplinar" data-action-key="psicopedagogos" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#fce7ee;">
+                  <img src="assets/icons/psicopedagogo-icone.png" alt="Ícone de Psicopedagogos" />
+                </div>
+                <span class="action-num-badge">05</span>
+              </div>
+              <h3>Psicopedagogos</h3>
+              <p>Intervenções especializadas para superação de barreiras de aprendizagem e estratégias personalizadas.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Aprendizagem</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 6. Equipe multi -->
+          <article class="action-card" data-category="multidisciplinar" data-action-key="equipe-multi" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#e3f1f6;">
+                  <img src="assets/icons/equipe-multi-icone.png" alt="Ícone de Equipe Multidisciplinar" />
+                </div>
+                <span class="action-num-badge">06</span>
+              </div>
+              <h3>Equipe multi</h3>
+              <p>Articulação multiprofissional com psicologia escolar, neuropediatria e assessoria técnica especializada.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Multidisciplinar</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 7. AEE -->
+          <article class="action-card" data-category="praticas" data-action-key="aee" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#fce7ee;">
+                  <img src="assets/icons/aee-icone.png" alt="Ícone de AEE" />
+                </div>
+                <span class="action-num-badge">07</span>
+              </div>
+              <h3>AEE</h3>
+              <p>Fortalecimento do Atendimento Educacional Especializado nas Salas de Recursos Multifuncionais.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Educação Especial</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 8. Escolas especializadas -->
+          <article class="action-card" data-category="praticas" data-action-key="escolas-especializadas" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#fff1d7;">
+                  <img src="assets/icons/escolas-especializadas-icone.png" alt="Ícone de Escolas Especializadas" />
+                </div>
+                <span class="action-num-badge">08</span>
+              </div>
+              <h3>Escolas especializadas</h3>
+              <p>Interlocução, suporte e articulação contínua com entidades e serviços especializados de Botucatu.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Rede Conveniada</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 9. Avaliações e estudo de caso -->
+          <article class="action-card" data-category="multidisciplinar" data-action-key="avaliacoes" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#eaf1e7;">
+                  <img src="assets/icons/avaliacoes-icone.png" alt="Ícone de Avaliações e Estudo de Caso" />
+                </div>
+                <span class="action-num-badge">09</span>
+              </div>
+              <h3>Avaliações e estudo de caso</h3>
+              <p>Avaliação biopsicossocial pioneira em contexto escolar com 20 casos prioritários já em intervenção.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Biopsicossocial</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 10. Pessoal de apoio -->
+          <article class="action-card" data-category="praticas" data-action-key="pessoal-apoio" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#e3f1f6;">
+                  <img src="assets/icons/pessoal-apoio-icone.png" alt="Ícone de Pessoal de Apoio" />
+                </div>
+                <span class="action-num-badge">10</span>
+              </div>
+              <h3>Pessoal de apoio</h3>
+              <p>Capacitação para profissionais de apoio escolar no manejo inclusivo, alimentação, locomoção e cuidado.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Cuidado & Autonomia</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 11. Monitores -->
+          <article class="action-card" data-category="praticas" data-action-key="monitores" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#fce7ee;">
+                  <img src="assets/icons/monitores-icone.png" alt="Ícone de Monitores da UNESP" />
+                </div>
+                <span class="action-num-badge">11</span>
+              </div>
+              <h3>Monitores</h3>
+              <p>Até 50 estudantes de graduação da UNESP com supervisão semanal atuando diretamente nas escolas.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Suporte Pedagógico</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 12. Família -->
+          <article class="action-card" data-category="praticas" data-action-key="familia" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#e3f1f6;">
+                  <img src="assets/icons/familia-icone.png" alt="Ícone de Família" />
+                </div>
+                <span class="action-num-badge">12</span>
+              </div>
+              <h3>Família</h3>
+              <p>Escuta ativa, orientação e fortalecimento do vínculo de parceria entre a família e a escola.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Comunidade & Vínculo</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 13. NAPE -->
+          <article class="action-card" data-category="gestao" data-action-key="nape" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#fff1d7;">
+                  <img src="assets/icons/nape-icone.png" alt="Ícone do NAPE" />
+                </div>
+                <span class="action-num-badge">13</span>
+              </div>
+              <h3>NAPE</h3>
+              <p>Articulação institucional direta com o Núcleo de Apoio Pedagógico Especializado de Botucatu.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Políticas Públicas</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 14. Agenda -->
+          <article class="action-card" data-category="pesquisa" data-action-key="agenda" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#eaf1e7;">
+                  <img src="assets/icons/agenda-icone.png" alt="Ícone de Agenda" />
+                </div>
+                <span class="action-num-badge">14</span>
+              </div>
+              <h3>Agenda</h3>
+              <p>Calendário integrado de encontros formativos, atendimentos no SEP e supervisões do convênio.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Cronograma</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 15. Arquivos -->
+          <article class="action-card" data-category="pesquisa" data-action-key="arquivos" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#fce7ee;">
+                  <img src="assets/icons/arquivos-icone.png" alt="Ícone de Arquivos" />
+                </div>
+                <span class="action-num-badge">15</span>
+              </div>
+              <h3>Arquivos</h3>
+              <p>Repositório de documentos oficiais, termos do convênio, formulários e cartas informativas.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Documentação Oficial</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+
+          <!-- 16. Produções -->
+          <article class="action-card" data-category="pesquisa" data-action-key="producoes" tabindex="0" role="button" aria-haspopup="dialog">
+            <div>
+              <div class="action-card-header">
+                <div class="action-icon-wrap" style="background:#e3f1f6;">
+                  <img src="assets/icons/producoes-icone.png" alt="Ícone de Produções Científicas" />
+                </div>
+                <span class="action-num-badge">16</span>
+              </div>
+              <h3>Produções</h3>
+              <p>Publicações científicas, cadernos pedagógicos, relatos de experiência e pesquisas do grupo.</p>
+            </div>
+            <div class="action-card-footer">
+              <span class="action-tag">Pesquisa & Extensão</span>
+              <span class="action-link-arrow">Ver detalhes →</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. ATUALIZAÇÕES SEMANAIS (CARROSSEL DE NOTÍCIAS & REGISTROS) -->
+    <section class="section-updates" id="atualizacoes">
+      <div class="container">
+        <div class="updates-header-flex">
+          <div>
+            <span class="eyebrow">Acompanhe as Ações</span>
+            <h2 class="section-title">Atualizações Semanais</h2>
+            <p class="section-subtitle">Registros das etapas em andamento nas escolas, formações e atendimentos especializados.</p>
+          </div>
+          <div class="updates-carousel-controls">
+            <button type="button" class="control-circle-btn" id="update-prev-btn" aria-label="Notícia anterior">❮</button>
+            <button type="button" class="control-circle-btn" id="update-next-btn" aria-label="Próxima notícia">❯</button>
+          </div>
+        </div>
+
+        <div class="updates-scroller" id="updates-track">
+          <!-- Card 1: Diagnóstico com 655 profissionais -->
+          <article class="update-news-card">
+            <div class="update-thumb">
+              <img src="assets/images/foto-formacao.jpg" alt="Profissionais reunidos em formação" />
+              <span class="update-date-badge">22 ABR 2026</span>
+            </div>
+            <div class="update-body">
+              <div>
+                <span class="update-category">Diagnóstico Formativo</span>
+                <h3>Levantamento de Demandas com 655 Profissionais</h3>
+                <p>Questionário online aplicado em 64 unidades escolares subsidia o planejamento das formações continuadas em serviço.</p>
+              </div>
+              <span class="update-readmore">Ler síntese do relatório →</span>
+            </div>
+          </article>
+
+          <!-- Card 2: Início da Avaliação Biopsicossocial -->
+          <article class="update-news-card">
+            <div class="update-thumb">
+              <img src="assets/images/foto-equipe.jpg" alt="Equipe multiprofissional em discussão clínica e pedagógica" />
+              <span class="update-date-badge">15 MAI 2026</span>
+            </div>
+            <div class="update-body">
+              <div>
+                <span class="update-category">Inovação Pioneira</span>
+                <h3>Implementação da Avaliação Biopsicossocial</h3>
+                <p>Equipe multidisciplinar da UNESP inicia observações diretas em contexto escolar para os 20 casos prioritários selecionados.</p>
+              </div>
+              <span class="update-readmore">Ver metodologia aplicada →</span>
+            </div>
+          </article>
+
+          <!-- Card 3: Sala Multissensorial no SEP -->
+          <article class="update-news-card">
+            <div class="update-thumb">
+              <img src="assets/images/foto-sala-multissensorial.jpg" alt="Sala de estimulação precoce e multissensorial em Botucatu" />
+              <span class="update-date-badge">08 JUN 2026</span>
+            </div>
+            <div class="update-body">
+              <div>
+                <span class="update-category">Atendimento Terapêutico</span>
+                <h3>Atendimentos na Sala Multissensorial do SEP</h3>
+                <p>Oferta de estimulação precoce e integração sensorial na Av. Santana com apoio de neuropediatra e psicólogos.</p>
+              </div>
+              <span class="update-readmore">Conhecer o espaço →</span>
+            </div>
+          </article>
+
+          <!-- Card 4: Formação dos Monitores de Graduação -->
+          <article class="update-news-card">
+            <div class="update-thumb">
+              <img src="assets/images/foto-monitores.jpg" alt="Monitores e estudantes da UNESP em atividade de supervisão" />
+              <span class="update-date-badge">24 JUN 2026</span>
+            </div>
+            <div class="update-body">
+              <div>
+                <span class="update-category">Supervisão Acadêmica</span>
+                <h3>Supervisão Semanal dos 50 Monitores da UNESP</h3>
+                <p>Estudantes de graduação compartilham vivências práticas e recebem orientações de docentes pesquisadores da UNESP.</p>
+              </div>
+              <span class="update-readmore">Ver relatos em campo →</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. AGENDA & PRODUÇÕES CIENTÍFICAS -->
+    <section class="section-agenda-productions" id="agenda">
+      <div class="container">
+        <div class="agenda-prod-grid">
+          <!-- Coluna 1: Agenda Oficial -->
+          <div>
+            <span class="eyebrow">Planejamento Oficial</span>
+            <h2 class="section-title" style="font-size: 2.1rem;">Agenda de Encontros</h2>
+            <p>Cronograma das atividades formativas, supervisões e atendimentos da rede.</p>
+
+            <div class="agenda-list">
+              <div class="agenda-item">
+                <div class="agenda-calendar-badge">
+                  <span class="day">12</span>
+                  <span class="month">MAI</span>
+                </div>
+                <div class="agenda-details">
+                  <h4>Formação com Coordenadores Pedagógicos</h4>
+                  <p>📍 Auditório da Secretaria de Educação · 08h30 às 11h30</p>
+                </div>
+              </div>
+
+              <div class="agenda-item">
+                <div class="agenda-calendar-badge">
+                  <span class="day">20</span>
+                  <span class="month">MAI</span>
+                </div>
+                <div class="agenda-details">
+                  <h4>Reunião de Alinhamento com Gestores Escolares</h4>
+                  <p>💻 Encontro Online (UNESP & Equipes Diretivas) · 14h00</p>
+                </div>
+              </div>
+
+              <div class="agenda-item">
+                <div class="agenda-calendar-badge">
+                  <span class="day">27</span>
+                  <span class="month">MAI</span>
+                </div>
+                <div class="agenda-details">
+                  <h4>Oficina: Estratégias Inclusivas para o AEE</h4>
+                  <p>📍 Sala de Recursos Multifuncionais · 09h00</p>
+                </div>
+              </div>
+
+              <div class="agenda-item">
+                <div class="agenda-calendar-badge">
+                  <span class="day">05</span>
+                  <span class="month">JUN</span>
+                </div>
+                <div class="agenda-details">
+                  <h4>Supervisão Geral dos Monitores de Graduação</h4>
+                  <p>📍 Faculdade de Ciências UNESP / SEP Botucatu · 14h30</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Produções Científicas & Arquivos -->
+          <div id="producoes">
+            <span class="eyebrow">Conhecimento Compartilhado</span>
+            <h2 class="section-title" style="font-size: 2.1rem;">Produção Científica & Arquivos</h2>
+            <p>Repositório de artigos, cadernos formativos e documentos oficiais.</p>
+
+            <div class="prod-tabs-nav" style="margin-top: 1.5rem;">
+              <button type="button" class="prod-tab-btn active" data-prod-tab="artigos">Artigos & Pesquisas</button>
+              <button type="button" class="prod-tab-btn" data-prod-tab="guias">Guias & Cadernos</button>
+              <button type="button" class="prod-tab-btn" data-prod-tab="documentos">Documentos Oficiais</button>
+            </div>
+
+            <!-- Lista de Artigos -->
+            <div class="prod-list" id="prod-list-artigos">
+              <div class="prod-card">
+                <div class="prod-icon">
+                  <img src="assets/icons/producoes-icone.png" alt="" />
+                </div>
+                <div class="prod-info">
+                  <h4>Avaliação Biopsicossocial em Contexto Escolar: O Modelo de Botucatu</h4>
+                  <p>Estudo dos impactos da avaliação multidimensional frente ao diagnóstico clínico na Educação Básica.</p>
+                  <div class="prod-meta">
+                    <span>📄 Artigo Científico · UNESP / LaTeDIP</span>
+                    <span>📥 PDF (1.4 MB)</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prod-card">
+                <div class="prod-icon">
+                  <img src="assets/icons/producoes-icone.png" alt="" />
+                </div>
+                <div class="prod-info">
+                  <h4>Atuação dos Monitores Universitários no Apoio Pedagógico Inclusivo</h4>
+                  <p>Análise da formação em serviço de estudantes de graduação no suporte às unidades escolares.</p>
+                  <div class="prod-meta">
+                    <span>📄 Relato de Experiência · FC UNESP</span>
+                    <span>📥 PDF (980 KB)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lista de Guias -->
+            <div class="prod-list" id="prod-list-guias" style="display: none;">
+              <div class="prod-card">
+                <div class="prod-icon">
+                  <img src="assets/icons/formacoes-icone.png" alt="" />
+                </div>
+                <div class="prod-info">
+                  <h4>Caderno de Orientações Práticas: Desenho Universal para a Aprendizagem</h4>
+                  <p>Guia ilustrado com estratégias de adaptação curricular para turmas regulares e AEE.</p>
+                  <div class="prod-meta">
+                    <span>📘 Caderno Formativo · CMDTA</span>
+                    <span>📥 PDF (3.2 MB)</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prod-card">
+                <div class="prod-icon">
+                  <img src="assets/icons/aee-icone.png" alt="" />
+                </div>
+                <div class="prod-info">
+                  <h4>Manual de Estimulação Multissensorial no Ambiente Escolar</h4>
+                  <p>Protocolos de uso pedagógico de estímulos visuais, táteis e sonoros para regulação emocional.</p>
+                  <div class="prod-meta">
+                    <span>📗 Manual Técnico · SEP / UNESP</span>
+                    <span>📥 PDF (2.1 MB)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lista de Documentos -->
+            <div class="prod-list" id="prod-list-documentos" style="display: none;">
+              <div class="prod-card">
+                <div class="prod-icon">
+                  <img src="assets/icons/arquivos-icone.png" alt="" />
+                </div>
+                <div class="prod-info">
+                  <h4>Carta Informativa Oficial — Rede Municipal de Ensino de Botucatu</h4>
+                  <p>Sistematização integral das ações do convênio (Botucatu, 22 de abril de 2026).</p>
+                  <div class="prod-meta">
+                    <span>📑 Documento Oficial Assinado Digitalmente</span>
+                    <span>📥 PDF Oficial</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="prod-card">
+                <div class="prod-icon">
+                  <img src="assets/icons/gestores-icone.png" alt="" />
+                </div>
+                <div class="prod-info">
+                  <h4>Termo de Convênio UNESP & Prefeitura Municipal de Botucatu</h4>
+                  <p>Diretrizes institucionais, metas de expansão e plano de trabalho 2025/2026.</p>
+                  <div class="prod-meta">
+                    <span>🏛️ Termo Institucional de Cooperação</span>
+                    <span>📥 PDF (650 KB)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. EQUIPE & COORDENAÇÃO (CARTA INFORMATIVA) -->
+    <section class="section-team" id="equipe">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="eyebrow">Quem Constrói Este Projeto</span>
+          <h2 class="section-title">Equipe e Coordenação Institucional</h2>
+          <p class="section-subtitle">
+            Articulação de excelência entre pesquisadores da UNESP, gestão municipal de Botucatu, especialistas e estudantes em formação.
+          </p>
+        </div>
+
+        <!-- Destaque da Coordenação Geral -->
+        <div class="coord-highlight-card">
+          <div class="coord-avatar-badge">VC</div>
+          <div class="coord-info">
+            <span class="eyebrow">Coordenação Geral do Convênio</span>
+            <h3>Profa. Dra. Vera Lucia Messias Fialho Capellini</h3>
+            <p class="coord-role">Universidade Estadual Paulista (UNESP) — Faculdade de Ciências · Câmpus de Bauru</p>
+            <p>
+              Docente e pesquisadora titular na área de Educação Especial e Inclusiva. Lidera os grupos e laboratórios de pesquisa <strong>LaTeDIP</strong> (Laboratório de Tecnologias para o Desenvolvimento e Inclusão de Pessoas) e <strong>CMDTA</strong> (Centro Multidisciplinar para o Desenvolvimento de Tecnologias Assistivas), coordenando a cooperação técnico-científica com o município de Botucatu.
+            </p>
+          </div>
+        </div>
+
+        <!-- Segmentos da Equipe -->
+        <div class="team-grid-layout">
+          <div class="team-segment-card">
+            <h4>🏛️ UNESP Câmpus Bauru</h4>
+            <p>Docentes, pesquisadores e pós-graduandos responsáveis pela fundamentação teórica, análise de dados e condução das pesquisas aplicadas.</p>
+          </div>
+
+          <div class="team-segment-card">
+            <h4>🏫 Secretaria da Educação</h4>
+            <p>Equipe gestora de Botucatu, articuladores do NAPE e supervisores escolares que coordenam a execução nas 73 unidades de ensino.</p>
+          </div>
+
+          <div class="team-segment-card">
+            <h4>🧠 Equipe Multidisciplinar</h4>
+            <p>Psicólogos escolares com carga horária estendida, psicopedagogos, terapeutas e neuropediatra para as avaliações biopsicossociais.</p>
+          </div>
+
+          <div class="team-segment-card">
+            <h4>🎓 Monitores de Graduação</h4>
+            <p>Até 50 estudantes bolsistas e estagiários da UNESP que atuam nas salas de aula com acompanhamento e supervisão semanal rigorosa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CANAL DE SUGESTÕES / ESCUTA ATIVA -->
+    <section class="section-suggestions" id="sugestoes">
+      <div class="container suggestions-split">
+        <div>
+          <span class="eyebrow" style="color: var(--gold);">Escuta Ativa & Participação</span>
+          <h2 class="section-title">Envie sua Sugestão ou Dúvida</h2>
+          <p>
+            A Educação Inclusiva se constrói de forma coletiva. Este canal está aberto para que professores, gestores, monitores, famílias e profissionais da rede enviem dúvidas, relatos e ideias para o contínuo aprimoramento do convênio.
+          </p>
+          <div style="margin-top: 2rem;">
+            <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 1rem;">
+              <span style="font-size: 1.5rem;">💌</span>
+              <span><strong>Canal Direto com a Coordenação</strong></span>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 1rem;">
+              <span style="font-size: 1.5rem;">🔒</span>
+              <span><strong>Sigilo e Análise Cuidadosa de Cada Caso</strong></span>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: center;">
+              <span style="font-size: 1.5rem;">💡</span>
+              <span><strong>Contribuições para as Próximas Formações</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <form class="suggestion-form" id="suggestion-form">
+          <div class="form-group">
+            <label for="sug-name">Nome Completo *</label>
+            <input type="text" id="sug-name" name="name" class="form-control" placeholder="Ex.: Maria Souza" required />
+          </div>
+
+          <div class="form-group">
+            <label for="sug-email">E-mail Institucional ou Pessoal *</label>
+            <input type="email" id="sug-email" name="email" class="form-control" placeholder="Ex.: maria.souza@educacao.botucatu.sp.gov.br" required />
+          </div>
+
+          <div class="form-group">
+            <label for="sug-role">Seu Segmento / Função *</label>
+            <select id="sug-role" name="role" class="form-control" required>
+              <option value="" disabled selected>Selecione sua função na rede...</option>
+              <option value="Professor(a) da Classe Comum">Professor(a) da Classe Comum</option>
+              <option value="Professor(a) de AEE">Professor(a) de AEE</option>
+              <option value="Gestor(a) / Diretor(a)">Gestor(a) / Diretor(a) Escolar</option>
+              <option value="Coordenador(a) Pedagógico(a)">Coordenador(a) Pedagógico(a)</option>
+              <option value="Monitor(a) da UNESP">Monitor(a) da UNESP</option>
+              <option value="Pessoal de Apoio">Pessoal de Apoio Escolar</option>
+              <option value="Familiar / Responsável">Familiar / Responsável</option>
+              <option value="Outro Segmento">Outro Segmento</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sug-msg">Sua Mensagem ou Sugestão *</label>
+            <textarea id="sug-msg" name="message" class="form-control" placeholder="Escreva aqui suas considerações, relatos de sala de aula ou demandas formativas..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+            Enviar Contribuição →
+          </button>
+
+          <div class="form-feedback-msg" id="form-feedback" role="alert"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 10. RODAPÉ INSTITUCIONAL & REDES SOCIAIS / CONTATO (PDF 1 & 2) -->
+  <footer class="site-footer" id="contato">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Coluna 1: Identificação do Convênio -->
+        <div class="footer-col">
+          <h4>Ampliando Políticas, Culturas e Práticas Inclusivas</h4>
+          <p>
+            Convênio oficial de cooperação técnico-científica entre a Universidade Estadual Paulista (UNESP) – Faculdade de Ciências e a Prefeitura Municipal de Botucatu / Secretaria Municipal de Educação.
+          </p>
+          <div class="social-links-row">
+            <a href="#" class="social-icon-btn" title="Instagram do Projeto" aria-label="Instagram">📸</a>
+            <a href="#" class="social-icon-btn" title="Facebook Institucional" aria-label="Facebook">📘</a>
+            <a href="#" class="social-icon-btn" title="Canal no YouTube" aria-label="YouTube">▶️</a>
+            <a href="#" class="social-icon-btn" title="Portal UNESP Bauru" aria-label="UNESP">🌐</a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#projeto">O Projeto</a></li>
+            <li><a href="#acoes">As 16 Ações</a></li>
+            <li><a href="#atualizacoes">Atualizações</a></li>
+            <li><a href="#agenda">Agenda Oficial</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#producoes">Produções Científicas</a></li>
+            <li><a href="#sugestoes">Canal de Sugestões</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Endereços e Locais Citados na Carta Informativa -->
+        <div class="footer-col">
+          <h4>Locais de Atendimento & Convênio</h4>
+          <ul class="contact-info-list">
+            <li>
+              <span>📍</span>
+              <div>
+                <strong>SEP — Serviço de Estimulação Precoce</strong><br>
+                Sala Multissensorial de Atendimento Terapêutico<br>
+                Av. Santana, Centro – Botucatu / SP
+              </div>
+            </li>
+            <li>
+              <span>📍</span>
+              <div>
+                <strong>Secretaria Municipal de Educação de Botucatu</strong><br>
+                Rua General Telles, Centro – Botucatu / SP
+              </div>
+            </li>
+            <li>
+              <span>📍</span>
+              <div>
+                <strong>UNESP — Faculdade de Ciências</strong><br>
+                Laboratórios LaTeDIP & CMDTA<br>
+                Av. Eng. Luiz Edmundo Carrijo Coube, 14-01 – Bauru / SP
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Coluna 4: Contato Direto -->
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul class="contact-info-list">
+            <li>
+              <span>📧</span>
+              <div>
+                <strong>E-mail do Projeto:</strong><br>
+                <a href="mailto:projetoinclusivo@botucatu.sp.gov.br" style="color: var(--gold);">projetoinclusivo@botucatu.sp.gov.br</a>
+              </div>
+            </li>
+            <li>
+              <span>📞</span>
+              <div>
+                <strong>Telefone Institucional:</strong><br>
+                (14) 3811-3140 (SME Botucatu)
+              </div>
+            </li>
+            <li>
+              <span>🎓</span>
+              <div>
+                <strong>Coordenação UNESP:</strong><br>
+                Prof. Dra. Vera Lucia Capellini
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Rodapé Inferior com Copyright e Créditos -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 Convênio UNESP & Prefeitura Municipal de Botucatu. Todos os direitos reservados.
+        </div>
+        <div>
+          Desenvolvido conforme as diretrizes do Roteiro e Carta Informativa de 22 de abril de 2026.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 11. MODAL DETALHADO DAS 16 AÇÕES DO ROTEIRO (INTERATIVIDADE COMPLETA) -->
+  <div class="modal-backdrop" id="action-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-action-title">
+    <div class="modal-dialog">
+      <div class="modal-header-banner">
+        <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Fechar janela">✕</button>
+        <span class="eyebrow" id="modal-action-tag" style="color: var(--gold);">Categoria</span>
+        <h3 id="modal-action-title" style="color: #fff; font-size: 1.6rem; margin-top: 4px;">Título da Ação</h3>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-section-block">
+          <h4>Visão Geral</h4>
+          <p id="modal-action-summary">Resumo explicativo da frente de atuação.</p>
+        </div>
+
+        <div class="modal-section-block">
+          <h4>Objetivo Principal</h4>
+          <p id="modal-action-objetivo">Objetivo formal no âmbito do convênio.</p>
+        </div>
+
+        <div class="modal-section-block">
+          <h4>Metodologia & Estratégias</h4>
+          <p id="modal-action-metodologia">Como a frente é executada no contexto escolar.</p>
+        </div>
+
+        <div class="modal-section-block">
+          <h4>Público-Alvo & Participantes</h4>
+          <p id="modal-action-publico">Segmentos envolvidos diretamente.</p>
+        </div>
+
+        <div class="modal-section-block">
+          <h4>Destaques & Recursos</h4>
+          <ul id="modal-action-destaques"></ul>
+        </div>
+
+        <div style="margin-top: 1rem; display: flex; justify-content: flex-end;">
+          <button type="button" class="btn btn-secondary" onclick="document.getElementById('modal-close-btn').click();">
+            Fechar Detalhes
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts Interativos -->
+  <script src="script.js"></script>
+</body>
+</html>
