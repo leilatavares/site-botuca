@@ -1627,6 +1627,268 @@ textarea.form-control {
 }
 
 /* ==========================================================================
+   MINI VIEWS - FORMADORES E ESPECIALISTAS DO PROJETO
+   ========================================================================== */
+.coord-photo-frame {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 25px rgba(61, 38, 69, 0.2);
+  flex-shrink: 0;
+  background: var(--plum);
+}
+
+.coord-photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.formadores-section-wrap {
+  margin-top: 3.5rem;
+}
+
+.formadores-header-wrap {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.formadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.formador-card {
+  background: var(--cream);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 1.6rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.formador-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(201, 24, 74, 0.3);
+  background: #fff;
+}
+
+.formador-photo-frame {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.1rem;
+  border: 4px solid #fff;
+  box-shadow: 0 8px 20px rgba(61, 38, 69, 0.12);
+  background: #fce7ee;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.formador-photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.4s ease;
+}
+
+.formador-card:hover .formador-photo-frame img {
+  transform: scale(1.08);
+}
+
+.formador-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: rgba(201, 24, 74, 0.1);
+  color: var(--magenta);
+  margin-bottom: 0.6rem;
+}
+
+.formador-name {
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: var(--plum);
+  margin-bottom: 0.2rem;
+  line-height: 1.25;
+}
+
+.formador-role {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--magenta);
+  margin-bottom: 0.6rem;
+}
+
+.formador-bio {
+  font-size: 0.83rem;
+  color: var(--ink-muted);
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+  flex-grow: 1;
+}
+
+.formador-actions {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn-lattes-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--plum);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 7px 14px;
+  border-radius: var(--radius-pill);
+  transition: var(--transition);
+}
+
+.btn-lattes-link:hover {
+  background: var(--magenta);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201, 24, 74, 0.3);
+}
+
+.btn-drive-folder {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: var(--plum);
+  border: 1px solid var(--border-light);
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.btn-drive-folder:hover {
+  background: var(--plum);
+  color: #fff;
+  border-color: var(--plum);
+  transform: translateY(-2px);
+}
+
+/* Seção Para Quem é o Projeto */
+.section-target-audience {
+  padding: 4.5rem 0;
+  background: linear-gradient(180deg, var(--cream) 0%, var(--soft-bg) 100%);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.audience-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.audience-pill {
+  background: #fff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-pill);
+  padding: 10px 20px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--plum);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.audience-pill:hover {
+  border-color: var(--magenta);
+  background: var(--magenta);
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Badges e Eixos */
+.badge-construction {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.eixos-box {
+  background: #fdf7f2;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.2rem;
+  margin-top: 1rem;
+}
+
+.eixos-title {
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: var(--plum);
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.eixo-item-row {
+  margin-bottom: 0.6rem;
+  padding-left: 10px;
+  border-left: 3px solid var(--magenta);
+}
+
+.eixo-item-row strong {
+  color: var(--plum);
+  font-size: 0.88rem;
+  display: block;
+}
+
+.eixo-item-row span {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+
+/* ==========================================================================
    RESPONSIVIDADE (TABLETS & MOBILE)
    ========================================================================== */
 @media (max-width: 1080px) {

@@ -21,263 +21,263 @@ document.addEventListener('DOMContentLoaded', () => {
         publico: 'Docentes da UNESP, equipe da Secretaria Municipal de Educação, coordenadores de projetos e monitores de graduação.',
         destaques: [
           'Coordenação Geral: Profa. Dra. Vera Lucia Messias Fialho Capellini (UNESP - Bauru)',
-          'Articulação direta com laboratórios LaTeDIP e CMDTA',
-          'Atuação conjunta com a gestão da Educação Especial do município'
+          'Formadores e pesquisadores com mini views e links no portal',
+          'Acesso completo aos materiais da equipe no Google Drive'
         ]
       }
     },
     'formacoes': {
-      title: 'Formações nas UEs',
+      title: 'Formação Continuada',
       tag: 'Desenvolvimento Profissional',
       icon: 'assets/icons/formacoes-icone.png',
       iconBg: '#eaf1e7',
-      summary: 'Percursos formativos contínuos e em serviço para professores da classe comum, AEE e equipes escolares.',
+      summary: 'As formações chegam às escolas para aproximar o conhecimento das situações vivenciadas no cotidiano, estabelecendo espaço de reflexão, estudo e construção coletiva.',
       content: {
-        objetivo: 'Capacitar os profissionais da rede a partir das demandas reais diagnosticadas no questionário aplicado com 655 profissionais de 64 escolas.',
-        metodologia: 'Oficinas presenciais, encontros dialógicos em horário de trabalho pedagógico coletivo (HTPC) e seminários temáticos sobre estratégias pedagógicas inclusivas.',
-        publico: 'Professores de Educação Infantil, Ensino Fundamental, Educação Especial e apoio escolar.',
+        objetivo: 'Capacitar os profissionais da rede a partir de temas levantados na análise das respostas do formulário de necessidades formativas respondido em setembro de 2025.',
+        metodologia: 'Percursos formativos para Gestores, Coordenadores, Psicopedagogos, Equipe Multiprofissional, Professores do AEE, Escolas Especializadas e Pessoal de Apoio.',
+        publico: 'Professores da Educação Infantil e Ensino Fundamental, professores de AEE, gestores e equipe multiprofissional.',
         destaques: [
-          'Diagnóstico formativo com 655 profissionais da rede',
-          'Estudo de adaptações curriculares e Desenho Universal para a Aprendizagem (DUA)',
-          'Formação em serviço focada nas situações desafiadoras do dia a dia'
+          'Educação Infantil (5 Eixos): Inclusão e AEE; Desenvolvimento Infantil; Práticas Pedagógicas; Documentação e Avaliação; Trabalho Colaborativo.',
+          'Ensino Fundamental (7 Eixos): Marcos Legais; Práticas Pedagógicas & Currículo Flexível; TEA e AH/SD; Manejo de Comportamento; Ensino Colaborativo; Tecnologia Assistiva; Articulação Escola-Família.',
+          'Manejo de comportamentos desafiadores e trabalho/ensino colaborativo em serviço.'
         ]
       }
     },
     'gestores': {
-      title: 'Gestores Escolares',
-      tag: 'Liderança Institucional',
+      title: 'Formação para Gestores',
+      tag: 'Gestão e Inclusão',
       icon: 'assets/icons/gestores-icone.png',
       iconBg: '#fff1d7',
-      summary: 'Alinhamento estratégico e formação para diretores e vice-diretores das unidades de ensino municipal.',
+      summary: 'As ações com gestores buscam fortalecer a atuação da equipe escolar na construção de uma cultura inclusiva.',
       content: {
-        objetivo: 'Fortalecer a liderança inclusiva nas escolas, organizando rotinas, alocação de recursos pedagógicos e cultura de acolhimento.',
-        metodologia: 'Encontros mensais de gestão, escutas ativas institucionais e construção de planos de ação inclusivos por unidade escolar.',
-        publico: 'Diretores, vice-diretores e equipes diretivas das 73 escolas municipais.',
+        objetivo: 'Abordar os desafios encontrados pelas escolas e organizar estratégias para favorecer a participação e a aprendizagem dos estudantes.',
+        metodologia: 'Encontros de alinhamento com diretores e equipes gestoras, escuta ativa e planejamento de intervenções.',
+        publico: 'Diretores, vice-diretores e equipes gestoras da rede municipal de ensino.',
         destaques: [
-          'Escuta ativa estruturada com gestores da rede',
-          'Planejamento de fluxos de encaminhamento e avaliação biopsicossocial',
-          'Articulação entre diretoria escolar e suporte dos monitores da UNESP'
+          'Construção de culturas inclusivas e liderança escolar',
+          'Organização de estratégias de participação e permanência',
+          'Articulação direta com a Secretaria de Educação e a UNESP'
         ]
       }
     },
     'coordenadores': {
-      title: 'Coordenadores Pedagógicos',
-      tag: 'Acompanhamento Pedagógico',
+      title: 'Formação para Coordenadores',
+      tag: 'Coordenação Pedagógica',
       icon: 'assets/icons/coordenadores-icone.png',
       iconBg: '#e3f1f6',
-      summary: 'Formação e mentoria para os coordenadores pedagógicos como articuladores das práticas inclusivas nas escolas.',
+      summary: 'A coordenação pedagógica é fundamental para articular planejamento, professores, AEE, gestão e demais profissionais.',
       content: {
-        objetivo: 'Capacitar o coordenador pedagógico para mediar o trabalho colaborativo entre professores da classe comum e professores de AEE.',
-        metodologia: 'Rodas de conversa pedagógicas, análise de planos de aula inclusivos e estudos de caso semanais.',
-        publico: 'Coordenadores pedagógicos da Educação Infantil e Ensino Fundamental.',
+        objetivo: 'Fortalecer a articulação pedagógica e o trabalho e/ou ensino colaborativo no cotidiano da escola.',
+        metodologia: 'Encontros formativos, mediação pedagógica, análise de práticas e planejamento articulado entre docentes.',
+        publico: 'Coordenadores pedagógicos da Educação Infantil e do Ensino Fundamental.',
         destaques: [
-          'Foco na co-docência e planejamento conjunto',
-          'Instrumentais práticos para acompanhamento das metas de aprendizagem',
-          'Supervisão pedagógica alinhada com as pesquisas da UNESP'
+          'Articulação entre planejamento, regentes e AEE',
+          'Fortalecimento do ensino colaborativo (co-docência)',
+          'Acompanhamento e mediação dos processos de aprendizagem'
         ]
       }
     },
     'psicopedagogos': {
-      title: 'Psicopedagogos',
-      tag: 'Mediação da Aprendizagem',
+      title: 'Formação para Psicopedagogos',
+      tag: 'Avaliar para Compreender',
       icon: 'assets/icons/psicopedagogo-icone.png',
       iconBg: '#fce7ee',
-      summary: 'Intervenções especializadas nos processos cognitivos e pedagógicos de aprendizagem dos estudantes.',
+      summary: 'A formação das psicopedagogas aprofunda os conhecimentos sobre neurodesenvolvimento, aprendizagem e avaliação psicopedagógica baseada em evidências.',
       content: {
-        objetivo: 'Identificar barreiras e potencialidades de aprendizagem, propondo estratégias psicopedagógicas individualizadas e coletivas.',
-        metodologia: 'Triagem psicopedagógica, assessoria aos docentes e elaboração de planos de intervenção baseados em evidências científicas.',
-        publico: 'Estudantes com dificuldades de aprendizagem acentuadas, professores e equipes técnicas.',
+        objetivo: 'Elaborar um Protocolo Institucional de Avaliação Psicopedagógica para a rede municipal de Botucatu.',
+        metodologia: 'Estudos aprofundados sobre neurodesenvolvimento, instrumentos de triagem e estratégias de intervenção.',
+        publico: 'Psicopedagogos da rede municipal e equipes técnicas de suporte à aprendizagem.',
         destaques: [
-          'Avaliação multidimensional dos processos de leitura, escrita e raciocínio',
-          'Orientações práticas para flexibilização curricular na sala comum',
-          'Integração direta com a equipe multidisciplinar da UNESP'
+          'Neurodesenvolvimento e aprendizagem baseada em evidências',
+          'Elaboração do Protocolo Institucional de Avaliação Psicopedagógica',
+          'Intervenções e orientações personalizadas para o contexto escolar'
         ]
       }
     },
     'equipe-multi': {
-      title: 'Equipe Multidisciplinar',
-      tag: 'Suporte Especializado',
+      title: 'Formação para Equipe Multiprofissional',
+      tag: 'Trabalho Integrado',
       icon: 'assets/icons/equipe-multi-icone.png',
       iconBg: '#e3f1f6',
-      summary: 'Atuação integrada de psicólogos, psicopedagogos, terapeutas e neuropediatra para olhar global do estudante.',
+      summary: 'A Educação Inclusiva exige diferentes olhares e conhecimentos para apoiar a análise de demandas e construção de estratégias.',
       content: {
-        objetivo: 'Promover avaliações biopsicossociais aprofundadas, superando o modelo puramente biomédico e considerando as dimensões sociais e emocionais.',
-        metodologia: 'Observações diretas no contexto escolar, anamneses conjuntas, reuniões multiprofissionais e acompanhamento especializado.',
-        publico: 'Casos prioritários de estudantes indicados pelas escolas e equipes de saúde/educação.',
+        objetivo: 'Articular profissionais da educação e da área psicossocial para uma atuação sistêmica e colaborativa.',
+        metodologia: 'Reuniões interdisciplinares, estudos de caso conjuntos e alinhamento com neuropediatria e psicologia.',
+        publico: 'Psicólogos escolares, psicopedagogos, terapeutas e profissionais da área psicossocial.',
         destaques: [
-          'Equipe multiprofissional vinculada à UNESP e Prefeitura',
-          'Carga horária de psicologia ampliada para suporte escolar',
-          'Participação de Neuropediatra no apoio técnico especializado'
+          'Olhares complementares para demandas complexas da rede',
+          'Carga horária estendida de psicologia e apoio neuropediátrico',
+          'Atendimento integrado no SEP e nas escolas'
         ]
       }
     },
     'aee': {
-      title: 'AEE (Atendimento Educacional Especializado)',
-      tag: 'Salas de Recursos Multifuncionais',
+      title: 'Formação para Professores do AEE',
+      tag: 'Fortalecendo o AEE',
       icon: 'assets/icons/aee-icone.png',
       iconBg: '#fce7ee',
-      summary: 'Fortalecimento e qualificação do AEE complementar e suplementar oferecido nas unidades escolares.',
+      summary: 'Aborda planejamento, trabalho/ensino colaborativo, avaliação, acessibilidade e recursos pedagógicos e tecnológicos.',
       content: {
-        objetivo: 'Garantir recursos de tecnologia assistiva, adequação de materiais didáticos e metodologias acessíveis para estudantes público-alvo da Educação Especial.',
-        metodologia: 'Atendimento nas Salas de Recursos Multifuncionais (SRM), articulação com a sala regular e produção de materiais adaptados.',
-        publico: 'Professores de AEE e estudantes com deficiência, TEA e altas habilidades/superdotação.',
+        objetivo: 'Qualificar as práticas inclusivas no Atendimento Educacional Especializado e fortalecer o trabalho colaborativo.',
+        metodologia: 'Oficinas sobre Desenho Universal para a Aprendizagem (DUA), Tecnologia Assistiva e recursos de acessibilidade.',
+        publico: 'Professores de Atendimento Educacional Especializado (Salas de Recursos Multifuncionais).',
         destaques: [
-          'Articulação da teoria com a prática do AEE em Botucatu',
-          'Desenvolvimento de materiais pelo CMDTA / LaTeDIP',
-          'Planos de Desenvolvimento Individual (PDI) colaborativos'
+          'Temas: DUA, Tecnologia Assistiva, acessibilidade e práticas inclusivas',
+          'Produtos em desenvolvimento: Estudo de Caso, PAEE, PEI',
+          'Drive institucional do AEE e Ateliê de Documentação Pedagógica'
         ]
       }
     },
     'escolas-especializadas': {
-      title: 'Escolas Especializadas',
-      tag: 'Rede de Suporte',
+      title: 'Ações nas Escolas & Escolas Especializadas',
+      tag: 'Em Construção',
       icon: 'assets/icons/escolas-especializadas-icone.png',
       iconBg: '#fff1d7',
-      summary: 'Diálogo, articulação e suporte contínuo com instituições de atendimento especializado no município.',
+      summary: 'O projeto contempla as escolas municipais e especializadas, considerando suas características, necessidades e desafios.',
       content: {
-        objetivo: 'Promover a transição escolar harmônica e o intercâmbio de saberes entre as instituições parceiras e a rede regular.',
-        metodologia: 'Visitas técnicas institucionais, reuniões de estudo conjunto e partilha de boas práticas.',
-        publico: 'Profissionais de centros especializados, APAE, entidades conveniadas e comunidade.',
+        objetivo: 'Ação formativa voltada ao levantamento das necessidades das unidades e elaboração de um plano de formação geral.',
+        metodologia: 'Escuta atenta, visitas técnicas institucionais e construção de diretrizes de transição e parceria.',
+        publico: 'Profissionais de escolas especializadas e unidades de ensino da rede.',
         destaques: [
-          'Construção de pontes entre o ensino especializado e o ensino regular',
-          'Mapeamento de recursos e tecnologias compartilhadas',
-          'Garantia do direito à escolarização inclusiva plena'
+          'Módulo de ações nas escolas atualmente em construção',
+          'Levantamento de demandas das escolas especializadas',
+          'Integração e intercâmbio de saberes com a rede regular'
         ]
       }
     },
     'avaliacoes': {
-      title: 'Avaliações e Estudo de Caso',
-      tag: 'Avaliação Biopsicossocial Pioneira',
+      title: 'Avaliação Biopsicossocial',
+      tag: 'Ampliando o Olhar',
       icon: 'assets/icons/avaliacoes-icone.png',
       iconBg: '#eaf1e7',
-      summary: 'Implementação pioneira da avaliação biopsicossocial em contexto escolar para os casos mais desafiadores.',
+      summary: 'Ampliando o olhar sobre as necessidades dos estudantes através de avaliações psicológicas como parte do acompanhamento.',
       content: {
-        objetivo: 'Compreender o estudante em suas dimensões pedagógicas, contextuais, sociais e emocionais, selecionando intervenções assertivas.',
-        metodologia: 'Observações in loco em sala de aula e pátio, escutas de pais e professores, e estudo de caso multidisciplinar.',
-        publico: 'Mais de 150 situações desafiadoras mapeadas nas 73 escolas, com 20 casos prioritários já em intervenção.',
+        objetivo: 'Subsidiar a compreensão das situações e a definição dos encaminhamentos e intervenções necessárias.',
+        metodologia: 'Observações diretas em contexto escolar conduzidas por equipe multidisciplinar da UNESP para os 20 casos prioritários.',
+        publico: 'Estudantes com situações desafiadoras mapeadas, equipes escolares e familiares.',
         destaques: [
-          'Pioneirismo no modelo biopsicossocial de avaliação educacional',
-          '20 casos de alta prioridade acompanhados minuciosamente',
-          'Devolutivas construtivas para as famílias e equipes escolares'
+          'Superação do diagnóstico exclusivamente biomédico',
+          'Olhar sobre dimensões pedagógicas, sociais e emocionais',
+          'Planilha de acompanhamento da equipe de Psicologia em integração'
         ]
       }
     },
     'pessoal-apoio': {
-      title: 'Pessoal de Apoio Escolar',
-      tag: 'Cuidado & Acessibilidade',
+      title: 'Formação para Pessoal de Apoio',
+      tag: 'Apoiar Também é Incluir',
       icon: 'assets/icons/pessoal-apoio-icone.png',
       iconBg: '#e3f1f6',
-      summary: 'Capacitação e valorização dos profissionais de apoio à alimentação, higiene e locomoção.',
+      summary: 'Auxiliares e cuidadores fazem parte do cotidiano escolar e têm papel importante na participação e autonomia dos estudantes.',
       content: {
-        objetivo: 'Qualificar o apoio às atividades da vida diária e escolar, assegurando autonomia e dignidade para cada aluno.',
-        metodologia: 'Treinamentos práticos sobre manejo acolhedor, comunicação alternativa básica e integração com os professores.',
-        publico: 'Cuidadores, monitores de apoio e auxiliares de vida escolar da rede municipal.',
+        objetivo: 'Contemplar a temática do manejo de comportamentos e os desafios encontrados no cotidiano das escolas.',
+        metodologia: 'Encontros práticos e dialógicos sobre acolhimento, postura ética, mediação e manejo de crises.',
+        publico: 'Auxiliares de classe, cuidadores e profissionais de apoio à inclusão escolar.',
         destaques: [
-          'Promoção da autonomia e não da dependência',
-          'Orientações ergonômicas e de mediação no recreio e rotinas escolares',
-          'Integração plena à equipe educacional da escola'
+          'Manejo de comportamentos desafiadores em contexto escolar',
+          'Promoção da autonomia e participação do estudante',
+          'Valorização e capacitação contínua da equipe de apoio'
         ]
       }
     },
     'monitores': {
-      title: 'Monitores de Graduação (UNESP)',
-      tag: 'Apoio Direto nas Escolas',
+      title: 'Atuação dos Monitores',
+      tag: 'Universidade nas Escolas',
       icon: 'assets/icons/monitores-icone.png',
       iconBg: '#fce7ee',
-      summary: 'Atuação de até 50 estudantes universitários de graduação nas escolas indicadas pela Secretaria.',
+      summary: 'Estudantes de graduação atuam como monitores em unidades escolares, aproximando a universidade do cotidiano da Rede Municipal.',
       content: {
-        objetivo: 'Oferecer suporte qualificado e direto às práticas pedagógicas inclusivas em sala de aula regular.',
-        metodologia: 'Atuação prática presencial nas escolas parceiras com processo sistemático de formação e supervisão semanal pela UNESP.',
-        publico: 'Estudantes de cursos de graduação da UNESP Bauru e turmas inclusivas da rede de Botucatu.',
+        objetivo: 'Apoiar práticas inclusivas nas escolas por meio de formação, orientação e supervisão contínua pela UNESP.',
+        metodologia: 'Atuação direta nas salas de aula com acompanhamento semanal de docentes pesquisadores da universidade.',
+        publico: 'Graduandos da UNESP Bauru, professores regentes e turmas escolares de Botucatu.',
         destaques: [
-          'Até 50 monitores bolsistas/estagiários em campo',
-          'Supervisão acadêmica e metodológica semanal rigorosa',
-          'Ponte direta entre a produção científica e a sala de aula'
+          'O que fazem: Participam de formações e recebem supervisão pedagógica',
+          'Apoiam as demandas das escolas e registram vivências',
+          'Desenvolvem materiais de apoio e tecnologia assistiva'
         ]
       }
     },
     'familia': {
-      title: 'Família e Comunidade',
-      tag: 'Escuta Ativa & Parceria',
+      title: 'Famílias (Grupos de Escuta)',
+      tag: 'Escuta, Acolhimento e Troca',
       icon: 'assets/icons/familia-icone.png',
       iconBg: '#e3f1f6',
-      summary: 'Acolhimento, orientação e escuta ativa com pais e responsáveis dos estudantes da rede.',
+      summary: 'Os Grupos de Escuta e Acolhimento oferecem um espaço para familiares compartilharem experiências e fortalecerem redes de apoio.',
       content: {
-        objetivo: 'Fortalecer os vínculos de confiança e colaboração mútua entre família e escola na trajetória do estudante.',
-        metodologia: 'Encontros de escuta, rodas de orientação familiar e participação nas devolutivas dos estudos de caso.',
-        publico: 'Pais, mães e responsáveis legais de estudantes com e sem deficiência.',
+        objetivo: 'Acolher e orientar familiares, fortalecendo a ponte de colaboração mútua entre a família e a escola.',
+        metodologia: 'Encontros conduzidos por psicóloga com apoio de graduanda em Enfermagem.',
+        publico: 'Pais, mães e familiares responsáveis de estudantes da rede municipal.',
         destaques: [
-          'Escuta humanizada das histórias e anseios familiares',
-          'Orientações sobre direitos, rotinas em casa e estimulação no lar',
-          'Atendimento na Sala Multissensorial do SEP (Centro de Botucatu)'
+          'Principais demandas levantadas: Formação de profissionais e comunicação família-escola',
+          'Organização dos profissionais de apoio e inclusão/permanência',
+          'Acesso à rede de saúde, serviços especializados e orientação familiar'
         ]
       }
     },
     'nape': {
       title: 'NAPE (Núcleo de Apoio Pedagógico)',
-      tag: 'Articulação da Rede',
+      tag: 'Articulação com a Rede',
       icon: 'assets/icons/nape-icone.png',
       iconBg: '#fff1d7',
-      summary: 'Trabalho conjunto e estratégico com o Núcleo de Apoio Pedagógico Especializado de Botucatu.',
+      summary: 'O projeto realiza ações em diálogo com o NAPE e diferentes profissionais da Rede Municipal.',
       content: {
-        objetivo: 'Alinhar as diretrizes do convênio às políticas públicas permanentes da Secretaria Municipal de Educação.',
-        metodologia: 'Reuniões periódicas de alinhamento com a equipe técnica do NAPE para monitoramento de indicadores e fluxos.',
-        publico: 'Equipe de especialistas e coordenadores do NAPE Botucatu.',
+        objetivo: 'Identificar demandas conjuntas e construir estratégias articuladas com as políticas públicas do município.',
+        metodologia: 'Reuniões sistemáticas de planejamento, alinhamento técnico e acompanhamento de fluxos institucionais.',
+        publico: 'Equipe técnica do NAPE Botucatu e Secretaria Municipal de Educação.',
         destaques: [
-          'Construção conjunta de protocolos institucionais',
-          'Gestão articulada dos encaminhamentos de estudantes',
-          'Sustentabilidade das ações inclusivas na rede a longo prazo'
+          'Escuta conjunta para identificação contínua de demandas',
+          'Alinhamento de fluxos de avaliação biopsicossocial e encaminhamentos',
+          'Sustentabilidade das ações inclusivas na rede municipal'
         ]
       }
     },
     'agenda': {
       title: 'Agenda do Convênio',
-      tag: 'Planejamento de Atividades',
+      tag: 'Acompanhe as Próximas Ações',
       icon: 'assets/icons/agenda-icone.png',
       iconBg: '#eaf1e7',
-      summary: 'Cronograma oficial de reuniões, formações continuadas, supervisões e atendimentos especializados.',
+      summary: 'Consulte as datas de formações, encontros, atividades nas escolas e demais ações do projeto.',
       content: {
         objetivo: 'Garantir transparência, previsibilidade e ampla participação de todos os segmentos nas ações do projeto.',
-        metodologia: 'Calendário dinâmico atualizado periodicamente com horários, locais (Auditório, Escolas, SEP e Online) e pautas.',
-        publico: 'Todos os profissionais da rede, gestores, monitores e comunidade escolar.',
+        metodologia: 'Calendário de encontros presenciais e online nas escolas, no SEP e na Secretaria de Educação.',
+        publico: 'Comunidade escolar, educadores, gestores e monitores do convênio.',
         destaques: [
           'Encontros formativos semanais e quinzenais',
-          'Supervisões dos monitores todas as sextas-feiras',
-          'Cronograma de atendimentos na Sala Multissensorial do SEP'
+          'Supervisões dos monitores e reuniões com gestores',
+          'Atendimentos na Sala Multissensorial no SEP'
         ]
       }
     },
     'arquivos': {
       title: 'Repositório de Arquivos',
-      tag: 'Acervo & Documentos',
+      tag: 'Documentação Oficial',
       icon: 'assets/icons/arquivos-icone.png',
       iconBg: '#fce7ee',
-      summary: 'Central de download de formulários, termos de convênio, cadernos de apoio e relatórios técnicos.',
+      summary: 'Central de consulta e download de formulários, relatórios, termos e cartas oficiais do projeto.',
       content: {
-        objetivo: 'Disponibilizar de forma rápida e acessível toda a documentação oficial e pedagógica gerada pelo projeto.',
-        metodologia: 'Organização em categorias temáticas com arquivos digitais acessíveis (PDF, documentos editáveis e formulários).',
-        publico: 'Equipes gestoras, professores, pesquisadores e comunidade escolar.',
+        objetivo: 'Disponibilizar toda a documentação oficial e pedagógica gerada pela parceria UNESP-Botucatu.',
+        metodologia: 'Arquivos organizados por categorias para fácil acesso pelos profissionais da rede.',
+        publico: 'Equipes escolares, pesquisadores e comunidade.',
         destaques: [
-          'Carta Informativa Oficial na íntegra (Botucatu, 22/04/2026)',
-          'Modelos de PDI e Fichas de Observação Biopsicossocial',
-          'Termos e diretrizes do Convênio UNESP / Prefeitura'
+          'Carta Informativa Oficial na íntegra',
+          'Termos de Convênio e Plano de Trabalho',
+          'Instrumentais e materiais pedagógicos'
         ]
       }
     },
     'producoes': {
-      title: 'Produções Científicas',
-      tag: 'Pesquisa & Extensão',
+      title: 'Publicações & Produções',
+      tag: 'Em Construção',
       icon: 'assets/icons/producoes-icone.png',
       iconBg: '#e3f1f6',
-      summary: 'Divulgação da produção acadêmica, artigos, livros, relatos de experiência e tecnologias desenvolvidas.',
+      summary: 'Divulgação de cadernos pedagógicos, relatos de experiência, artigos e produções científicas do grupo.',
       content: {
-        objetivo: 'Sistematizar o conhecimento gerado na parceria UNESP-Botucatu para servir de referência nacional em políticas públicas.',
-        metodologia: 'Publicação de artigos em revistas científicas indexadas, anais de congressos, e-books e manuais práticos.',
-        publico: 'Comunidade acadêmica nacional e internacional, redes municipais de ensino e educadores.',
+        objetivo: 'Sistematizar e publicar o conhecimento gerado na parceria UNESP-Botucatu.',
+        metodologia: 'Publicação de e-books, artigos indexados e materiais didáticos acessíveis.',
+        publico: 'Comunidade acadêmica, educadores e redes de ensino.',
         destaques: [
-          'Produções vinculadas ao LaTeDIP e CMDTA / FC UNESP',
-          'Relatos de experiências dos monitores e professores da rede',
-          'Estudos empíricos sobre o impacto da avaliação biopsicossocial'
+          'Seção de publicações atualmente em construção',
+          'Materiais desenvolvidos no âmbito do LaTeDIP e CMDTA',
+          'Relatos da experiência prática dos monitores e formadores'
         ]
       }
     }
